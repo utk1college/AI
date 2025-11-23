@@ -29,3 +29,7 @@ def pretty(expr):
             .replace('~', '¬')
     )
     return f"⟦ {text} ⟧"
+
+# Step 5: Print nice-looking CNF
+print("\n🧩 CNF Formula:")
+print(pretty(cnf_expr))
